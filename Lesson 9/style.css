@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+}
+/*First Block Start*/
+.first-block{
+    background: grey;
+    padding-bottom: 500px;
+}
+/*Header Start*/
+div {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+/*Header Start*/
+header {
+    background: #999999;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 26px;
+}
+.right-side {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50%;
+}
+.nav-refs {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+/*Header End*/
+/*Center Start*/
+.center {
+    padding-top: 350px;
+    text-align: center;
+}
+.main-center {
+    font-weight: 500;
+    text-indent: 1px;
+    font-size: 42px;
+    letter-spacing: 0.1em;
+}
+.undermain-center {
+    margin-top: 20px;
+    font-weight:200;
+    font-size: 18px;
+}
+.btn-center {
+    display: inline-block;
+    border-radius: 30px;
+    width: 10%;
+    font-size: 16px;
+    border: none;
+    background-color: grey;
+    cursor: pointer;
+    margin-top: 35px;
+    margin-left: 45%;
+    margin-right: 45%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    
+}
+.indent-center {
+    letter-spacing: 0.2em;
+}
+/*Center End*/
+/*First Block End*/
+/*Second Block Start*/
+/*Center Start*/
+.second-block {
+    background-color: white;
+    margin-bottom: 100px;
+}
+.insides-second-block {
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 300px;
+}
+.hrr-second-block {
+    width: 50px;
+    height: 0.1em;
+    background: black;
+
+    border-color: black;
+    border-radius: 0.5em;
+    position: absolute;
+    margin-top: 20px;
+}
+/*Center End*/
+/*Second Block End*/
+a, button {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: white;
+}
