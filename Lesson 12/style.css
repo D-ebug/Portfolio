@@ -1,0 +1,39 @@
+.logo-container {
+    position: relative;
+    background-color: purple;
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+}
+.item-bc {
+    position: absolute;
+    margin: 25px;
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+.item-middle {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #ff59b4;
+    border-radius: 25px;
+    margin: 25px;
+}
+.item-bc2 {
+    position: absolute;
+    background-color: #fff;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin: 25px;
+}
+.item-circle {
+    position: absolute;
+    background-color: #5c163c;
+    width: 110px;
+    height: 110px;
+    border-radius: 100px;
+    margin: 20px;
+}
