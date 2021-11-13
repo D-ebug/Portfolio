@@ -4,6 +4,7 @@ li > a {
     transition: .4s .05s cubic-bezier(0.25, 0.1, 0.18, 1.07);
     color: cornflowerblue;
     margin-bottom: 30px;
+    animation: .7s ease-in opaci;
 }
 li > a:hover {
     color: cadetblue;
@@ -15,6 +16,7 @@ li > a:hover {
     width: 500px;
     background-color: #9ffcca;
     border-radius: 15px;
+    animation: .7s ease-in opaci;
 }
 body {
     margin-left: 16px;
@@ -25,11 +27,23 @@ body {
 .Title {
   text-align: center;
   font-weight: 700;
+  animation: linear ;
 }
 .welcome {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+@keyframes opaci {
+    0% {
+        opacity: 0%;
+    }
+    50% {
+        opacity: 40%;
+    }
+    100% {
+        opacity: 100%;
+    }
 }
 #return > img {
     width: 25px !important;
