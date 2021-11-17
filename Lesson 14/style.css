@@ -1,0 +1,122 @@
+body {
+    background-color: #fff;
+    margin: 0;
+    color: #fff;
+}
+header {
+    border: black solid 5px;
+    padding: 25px 0;
+    height: 25px;
+    display: flex;
+    background-color: #292929;
+}
+.logo {
+    font-size: 20px;
+    padding-left: 20px;
+    width: 200px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav {
+    display: flex;
+    width: 100%;
+}
+.nav-button:first-child {
+    order: 2;
+    margin-left: auto;
+}
+.nav-button {
+    order: 2;
+    margin-right: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.blocks {
+    display: flex;
+}
+.first-block {
+    margin-left: 15px;
+    width: 50%;
+    background-color: #fff;
+    color: #000;
+}
+h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text {
+    margin: 20px 0;
+}
+.card > .text {
+    margin: 0 15px;
+}
+
+.card-title {
+    padding-left: 15px;
+    padding-top: 10px;
+    background-color: #292929;
+    color: #fff;
+    height: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+.card {
+    min-width: 250px;
+    position: relative;
+    margin: 5px 15px;
+    width: 250px;
+    height: 275px;
+    border: black solid 5px;
+}
+.cards {
+    margin-left: -15px;
+    flex-wrap: wrap;
+    display: flex;
+}
+.second-block > .text {
+    color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 15px;
+}
+.second-block {
+    margin: 15px;
+    border: black solid 5px;
+    margin-left: auto;
+    width: 50%;
+    height: 500px;
+    background-color: #292929;
+}
+@media screen and (max-width: 411px) {
+    .blocks {
+        flex-direction: column;
+        position: relative;
+        top: 75px;
+    }
+    .first-block {
+        width: 95%;
+    }
+    .cards {
+        margin: 0 3px;
+    }
+    .card {
+        margin: 5px;
+        margin-right: auto;
+        margin-left: auto;
+        width: auto;
+    }
+    .card > .text {
+        margin-top: 10px;
+    }
+    .second-block {
+        margin: 5px 5px;
+        width: 95%;
+        height: 400px;
+    }
+    header {
+        height: 25px;
+        position: fixed;
+        z-index: 1000;
+    }
+}
