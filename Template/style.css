@@ -121,9 +121,6 @@ nav{
 .card-img {
     filter: drop-shadow(0 0 2px black);
 }
-.card > p {
-    
-}
 /*Footer*/
 footer {
     background-color: #C0301C;
