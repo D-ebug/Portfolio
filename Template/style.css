@@ -137,6 +137,8 @@ footer {
     justify-content: center;
 }
 .social {
+    border: white solid 1px;
+    border-radius: 50%;
     margin-left: 1%;
 }
 footer > p {
