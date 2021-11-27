@@ -1,0 +1,76 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.col-sm-2 {
+    border: #ced4da solid 1px;
+    border-radius: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+    text-align: center;
+}
+.col-sm-2>a>img {
+    display: flex;
+    max-width: 100%;
+    aspect-ratio: 5/4.5;
+    padding: 20px 0;
+}
+.brand {
+    padding: 1px 3px;
+    width: 20%;
+    float: right;
+    background: purple;
+    color: white;
+    border: purple solid 2px;
+    border-radius: 3px;
+    top: 0;
+}
+.price {
+    background-color: #FFCC00;
+    border-radius: 20px;
+    width: 50%;
+    font-weight: bold;
+}
+.reviews-btn {
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: 500;
+    opacity: .7;
+}
+.reviews-btn > a {
+    color: #000;
+}
+.col-sm-2 > .row {
+    margin-bottom: 20px;
+}
+.product-title > a{
+    color: black;
+    text-decoration: none;
+}
+a {
+    display: block;
+    transition: .3s ease all;
+}
+a:hover {
+    color: #0a58ca;
+}
+.cart-btn > a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFCC00;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 15px auto;
+}
+.btns > .col-md-6 > .qst{
+    float: left;
+}
+.btns > .col-md-6 > .like {
+    float: right;
+}
+.btns {
+}
