@@ -1,0 +1,51 @@
+.jobs {
+    margin-left: 30px;
+    display: flex;
+}
+.planned {
+    width: 20%;
+}
+.inprogress {
+    border-left: 1px solid #e5e5e5;
+    padding-left: 20px;
+    width: 20%;
+}
+.completed {
+    border-left: 1px solid #e5e5e5;
+    padding-left: 20px;
+    width: 20%;
+}
+.uk-card-default.main {
+    padding-left: 20px;
+    box-shadow: 2px 2px 25px 3px rgba(0, 0, 0, .1);
+    width: 350px;
+    height: auto;
+    margin-bottom: 30px;
+}
+.uk-card-title {
+    font-weight: 400;
+    color: black;
+    font-size: x-large;
+}
+.uk-icon.avatar {
+    width: 40px;
+    height: 40px;
+}
+.uk-card-buttons {
+    border-top: #E3E3E3 solid 1px;
+    background-color: #F8F8F8;
+    height: 35px;
+
+}
+.uk-card-buttons > span {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.uk-card-buttons > span:first-child {
+    margin-left: 25px;
+}
+.uk-card-buttons > span:last-child {
+    float: right;
+    margin-right: 20px;
+    margin-top: 3px;
+}
