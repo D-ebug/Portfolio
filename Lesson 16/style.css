@@ -15,9 +15,11 @@
     padding: 20px 0;
 }
 .brand {
+    position: absolute;
+    display: flex;
+    cursor: pointer;
     padding: 1px 3px;
-    width: 20%;
-    float: right;
+    width: auto;
     background: purple;
     color: white;
     border: purple solid 2px;

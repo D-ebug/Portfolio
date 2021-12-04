@@ -1,0 +1,110 @@
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(./fonts/gilroy/Gilroy-Bold.ttf);
+    src: url(./fonts/gilroy/Gilroy-Heavy.ttf);
+    src: url(./fonts/gilroy/Gilroy-Light.ttf);
+    src: url(./fonts/gilroy/Gilroy-Medium.ttf);
+    src: url(./fonts/gilroy/Gilroy-Regular.ttf);
+}
+body {
+    background-color: #333;
+}
+.desktop {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1445px;
+    background-color: #fff;
+    font-family: Gilroy-Bold;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 950px;
+    background: #fff;
+}
+nav {
+    border-bottom: black solid 1px;
+    margin-top: 22px;
+    padding-bottom: 30px;
+}
+nav > a{
+    width: 20%;
+    text-decoration: none;
+    color: #828282;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+nav > .nav-contacts {
+    margin-right: 0;
+}
+nav > .nav-home {
+    color: #000;
+    margin-right: 78px;
+    margin-left: 0;
+}
+.info {
+    margin-top: 40px;
+    display: flex;
+}
+.info-title {
+    font-weight: bolder;
+    font-size: 48px;
+}
+.info-desc {
+    font-weight: bold;
+    position: relative;
+    font-size: 18px;
+    margin-left: 300px;
+    margin-top: 65px;
+}
+.language {
+    display: flex;
+    transform: rotate(-90deg);
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    width: 70px;
+    position: relative;
+    right: -95%;
+    top: -10%;
+}
+.language > .eng {
+    color: #000;
+    text-decoration: none;
+}
+.language > .rus {
+    color: #828282;
+    text-decoration: none;
+}
+.denis-img > img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.about {
+    background-color: #F6F6F6;
+    position: relative;
+    display: block;
+    max-height: 500px;
+}
+.about-title {
+    padding-top: 120px;
+    font-size: 34px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.about-desc {
+    font-size: 18px;
+    text-align: center;
+}
+.about-desc:last-of-type {
+    padding-bottom: 105px;
+}
