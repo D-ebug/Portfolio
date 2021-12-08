@@ -8,6 +8,7 @@
 }
 body {
     background-color: #333;
+    margin: 0;
 }
 .desktop {
     display: flex;
@@ -17,6 +18,14 @@ body {
     width: 1445px;
     background-color: #fff;
     font-family: Gilroy-Bold;
+    font-weight: bold;
+    font-size: 18px;
+}
+h1 {
+    color:#000;    
+    text-shadow: 1px 0 #000;
+    letter-spacing:1px;
+    margin: 0;
 }
 .container {
     margin-left: auto;
@@ -24,12 +33,12 @@ body {
     width: 950px;
     background: #fff;
 }
-nav {
-    border-bottom: black solid 1px;
+.pc {
+    border-bottom: #828282 solid 1px;
     margin-top: 22px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
-nav > a{
+.pc > a{
     width: 20%;
     text-decoration: none;
     color: #828282;
@@ -39,21 +48,29 @@ nav > a{
     margin-left: 75px;
     margin-right: 75px;
 }
-nav > .nav-contacts {
+.pc > .nav-contacts {
     margin-right: 0;
 }
-nav > .nav-home {
+.pc > .nav-home {
     color: #000;
     margin-right: 78px;
     margin-left: 0;
+}
+.mobile {
+    opacity: 0;
+    height: 0;
+    width: 0;
+    pointer-events: none;
+    cursor: none;
 }
 .info {
     margin-top: 40px;
     display: flex;
 }
-.info-title {
+.info > h1 {
     font-weight: bolder;
     font-size: 48px;
+    margin: 0;
 }
 .info-desc {
     font-weight: bold;
@@ -71,7 +88,7 @@ nav > .nav-home {
     width: 70px;
     position: relative;
     right: -95%;
-    top: -10%;
+    top: -75px;
 }
 .language > .eng {
     color: #000;
@@ -81,11 +98,14 @@ nav > .nav-home {
     color: #828282;
     text-decoration: none;
 }
-.denis-img > img {
+.denis-img {
     display: flex;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
+    background: url(./imgs/BSPP2266.png) no-repeat;
+    width: 100%;
+    height: 390px;
 }
 .about {
     background-color: #F6F6F6;
@@ -93,7 +113,7 @@ nav > .nav-home {
     display: block;
     max-height: 500px;
 }
-.about-title {
+.about > h1 {
     padding-top: 120px;
     font-size: 34px;
     font-weight: bold;
@@ -104,7 +124,149 @@ nav > .nav-home {
 .about-desc {
     font-size: 18px;
     text-align: center;
+    padding-bottom: 20px;
 }
 .about-desc:last-of-type {
     padding-bottom: 105px;
+}
+.skills {
+    text-align: center;
+}
+.skills > p {
+    padding-bottom: 80px;
+}
+.skills > h1 {
+    padding-bottom: 70px;
+    margin-top: 70px;
+}
+.programs {
+    display: flex;
+    justify-content: space-between;
+    width: 935px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #828282;
+    font-weight: bold;
+}
+.pg-logo {
+    margin-bottom: 20px;
+}
+.pg-name {
+    height: 30px;
+}
+.rating {
+    margin-top: 40px;
+    width: 165px;
+    display: flex;
+    justify-content: space-between;
+}
+.contacts {
+    text-align: center;
+    margin-top: 70px;
+}
+a.send {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #000;
+    display: block;
+    width: 180px;
+    height: 30px;
+    padding-top: 10px;
+    border: #000 solid 1px;
+    border-radius: 20px;
+}
+.socials {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 340px;
+}
+.likeme {
+    color: #828282;
+    margin-top: 42px;
+    padding-bottom: 92px;
+}
+@media screen and (max-width: 500px) {
+    .desktop {
+        width: 100%;
+    }
+    .pc {
+        margin-top: 0;
+        padding-bottom: 0;
+        opacity: 0;
+        width: 0;
+        height: 0;
+        pointer-events: none;
+        cursor: default;
+    }
+    .mobile {
+        opacity: 100%;
+        height: 0;
+        width: auto;
+        pointer-events: all;
+        cursor: pointer;
+    }
+    .burger {
+        display: flex;
+        position: relative;
+        justify-content: end;
+        margin-right: 30px;
+        top: 30px;
+    }
+    .container {
+        width: 100%;
+    }
+    .info {
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    .info-desc {
+        margin-left: 0;
+        margin-top: 23px;
+    }
+    .denis-img {
+        width: 320px;
+        margin-left: 30px;
+        background: url(./imgs/full.png) no-repeat;
+        height: 480px;
+    }
+    .skills {
+        margin-top: 80px;
+    }
+    .skills > h1 {
+        padding-bottom: 25px;
+    }
+    a.send {
+        width: 316px;
+        margin-top: 40px;
+    }
+    .programs {
+        width: 100%;
+        flex-direction: column;
+    }
+    .program {
+        width: 375px;
+        margin-bottom: 80px;
+    }
+    .program:last-of-type{
+        margin-bottom: 0;
+    }
+    .rating {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .language {
+        width: 0;
+        height: 0;
+        opacity: 0;
+    }
+    .likeme {
+        padding-bottom: 43px;
+    }
 }
