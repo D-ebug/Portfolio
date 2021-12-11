@@ -10,6 +10,8 @@
 </head>
 
 <body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="./js/menu.js"></script>
     <div class="desktop">
         <div class="container">
             <header>
@@ -21,8 +23,26 @@
                     <a href="#" class="nav-contacts">Contacts</a>
                 </nav>
                 <nav class="mobile">
-                    <div class="burger">
-                        <img src="./imgs/burger.png" alt="">
+                    <div class="burger-block">
+                        <a href="" class="burger"><img src="./imgs/burger.png" alt=""></a>
+                    </div>
+                    <div class="menu">
+                        <div class="cross">
+                            <a href="" class="close-menu">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <line x1="10" y1="10" x2="40" y2="40" stroke="#828282" stroke-width="3" />
+                                    <line x1="40" y1="10" x2="10" y2="40" stroke="#828282" stroke-width="3" />
+                                </svg>
+                            </a>
+
+                        </div>
+                        <a href="" class="menu-home selected">Home</a>
+                        <a href="" class="menu-about">About</a>
+                        <a href="" class="menu-skills">Skills</a>
+                        <a href="" class="menu-portfolio">Portfolio</a>
+                        <a href="" class="menu-contacts">Contacts</a>
+                        <div class="language"><a href="" class="rus">RU</a>|<a href="" class="eng">ENG</a></div>
                     </div>
                 </nav>
             </header>
@@ -30,7 +50,7 @@
                 <h1>Denis <br> Novik</h1>
                 <div class="info-desc">UX | UI designer <br> 24 years old, Minsk</div>
             </div>
-            <div class="language"><a href="#" class="rus">RU</a>|<a href="#" class="eng">ENG</a></div>
+            <div class="language"><a href="" class="rus">RU</a>|<a href="" class="eng">ENG</a></div>
             <div class="denis-img"></div>
         </div>
         <div class="about">
@@ -91,7 +111,6 @@
             <div class="likeme">Like me on <br> LinkedIn, Instagram, Behance, Dribble</div>
         </div>
     </div>
-
 
 
 </body>
