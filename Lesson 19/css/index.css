@@ -1,0 +1,118 @@
+body {
+    font-weight: 500;
+    background-color: #333;
+}
+a {
+    text-decoration: none;
+}
+.desktop {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+    background-color: #fff;
+}
+header > .vr {
+    margin: 30px 0;
+    height: 40px;
+}
+header {
+    display: flex;
+    height: 100px;
+    margin: 0 100px;
+    border-bottom: 1px solid #D0D0D0;
+}
+header > * {
+    height: 40px;
+    margin: 30px 0;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+header > .logo > img {
+    position: relative;
+    top: -15px;
+}
+i {
+    font-size: 20px;
+    color: #000;
+    opacity: .5;
+}
+.number {
+    font-weight: 700;
+    display: flex;
+}
+header > .number > i{
+    font-size: 39px;
+}
+.maistra {
+    display: flex;
+    height: 55px;
+}
+.maistra > .container {
+    padding-top: 10px;
+    border: 5px #EFF3F6 solid;
+    border-radius: 3px;
+    display: inherit;
+    background-color: #EFF3F6;
+    display: inherit;
+    justify-content: center;
+}
+.maistra > .btn-header {
+    padding-top: 7px;
+    width: 50px;
+    border: 3px #DD4053 solid;
+    border-radius: 5px;
+    background-color: #DD4053;
+    display: flex;
+    justify-content: center;
+}
+.tours {
+    display: flex;
+    height: 55px;
+}
+.tours > .container {
+    padding-top: 10px;
+    border: 5px #EFF3F6 solid;
+    border-radius: 3px;
+    display: inherit;
+    background-color: #EFF3F6;
+    display: inherit;
+    justify-content: center;
+}
+.tours > .btn-header {
+    padding-top: 7px;
+    width: 50px;
+    border: 5px #4AD295 solid;
+    border-radius: 3px;
+    background-color: #4AD295;
+    display: flex;
+    justify-content: center;
+}
+.btn-header > i {
+    color: #fff;
+
+}
+nav {
+    background-color: #fff;
+    display: flex;
+    height: 80px;
+}
+nav > ul > li {
+    list-style-type: none;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+li > a {
+    color: #616161;
+    display: flex;
+}
+nav > ul {
+    padding-top: 28px;
+    padding-bottom: 23px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+.darkness {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 14.37%, rgba(0, 0, 0, 0.8) 100%);
+    z-index: 500;
+}
