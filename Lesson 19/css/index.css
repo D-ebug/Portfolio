@@ -5,6 +5,7 @@ body {
 a {
     text-decoration: none;
 }
+/*backround color (site made for 1440 monitors)*/
 .desktop {
     margin-left: auto;
     margin-right: auto;
@@ -91,6 +92,7 @@ header > .number > i{
     color: #fff;
 
 }
+/*navigation*/
 nav {
     background-color: #fff;
     display: flex;
@@ -112,7 +114,81 @@ nav > ul {
     margin-left: auto;
     display: flex;
 }
+/*slider*/
 .darkness {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 14.37%, rgba(0, 0, 0, 0.8) 100%);
     z-index: 500;
+}
+/*Operator*/
+.operator {
+    background: #F8F8F8;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    height: 220px;
+}
+.operator > * {
+    display: flex;
+    flex-direction: column;
+}
+.operator > * > * {
+    display: flex;
+}
+.operator > * > p {
+    color: #777777;
+}
+.operator > * > .buttons > :first-of-type{
+    background-color: #BDBDBD;
+    width: 270px;
+    font-size: 16px;
+    margin-right: 30px;
+    color: #fff;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    text-align: center;
+}
+.operator > * > .buttons > :last-of-type{
+    border: #969696 1px solid;
+    border-radius: 2px;
+    width: 220px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    text-align: center;
+}
+.circle {
+    width: 30px;
+    height: 30px;
+    border: dashed #969696 1.2px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+.circle > i {
+    position: relative;
+    top: -.1em;
+}
+/*hotel slider*/
+.hotel {
+    width: 460px;
+    height: 450px;
+    padding-top: 20px;
+}
+.hotel > .loc {
+    color: #fff;
+    font-weight: 300;
+    width: 195px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.hotel > h5 {
+    text-align: center;
+    vertical-align: middle;
+}
+.hotel > .rating > i {
+    color: #FFD600;
+    opacity: 1;
+}
+.hotel > .rating {
+    padding-top: 130px;
 }
