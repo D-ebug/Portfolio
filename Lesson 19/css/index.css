@@ -1,54 +1,66 @@
-body {
+body 
+{
     font-weight: 500;
     background-color: #333;
 }
-a {
+a 
+{
     text-decoration: none;
 }
 /*backround color (site made for 1440 monitors)*/
-.desktop {
+.desktop 
+{
     margin-left: auto;
     margin-right: auto;
     width: 1440px;
     background-color: #fff;
 }
-header > .vr {
+header > .vr 
+{
     margin: 30px 0;
     height: 40px;
 }
-header {
+header 
+{
     display: flex;
     height: 100px;
     margin: 0 100px;
     border-bottom: 1px solid #D0D0D0;
 }
-header > * {
+header > * 
+{
     height: 40px;
     margin: 30px 0;
     margin-left: 24px;
     margin-right: 24px;
 }
-header > .logo > img {
+header > .logo > img 
+{
     position: relative;
     top: -15px;
 }
-i {
+i 
+{
     font-size: 20px;
     color: #000;
     opacity: .5;
 }
-.number {
+.number 
+{
     font-weight: 700;
     display: flex;
 }
-header > .number > i{
+header > .number > i
+{
     font-size: 39px;
 }
-.maistra {
+.maistra 
+{
     display: flex;
     height: 55px;
 }
-.maistra > .container {
+.maistra > .container 
+{
     padding-top: 10px;
     border: 5px #EFF3F6 solid;
     border-radius: 3px;
@@ -57,7 +69,8 @@ header > .number > i{
     display: inherit;
     justify-content: center;
 }
-.maistra > .btn-header {
+.maistra > .btn-header 
+{
     padding-top: 7px;
     width: 50px;
     border: 3px #DD4053 solid;
@@ -66,11 +79,13 @@ header > .number > i{
     display: flex;
     justify-content: center;
 }
-.tours {
+.tours 
+{
     display: flex;
     height: 55px;
 }
-.tours > .container {
+.tours > .container 
+{
     padding-top: 10px;
     border: 5px #EFF3F6 solid;
     border-radius: 3px;
@@ -79,7 +94,8 @@ header > .number > i{
     display: inherit;
     justify-content: center;
 }
-.tours > .btn-header {
+.tours > .btn-header 
+{
     padding-top: 7px;
     width: 50px;
     border: 5px #4AD295 solid;
@@ -88,26 +104,31 @@ header > .number > i{
     display: flex;
     justify-content: center;
 }
-.btn-header > i {
+.btn-header > i 
+{
     color: #fff;
 
 }
 /*navigation*/
-nav {
+nav
+{
     background-color: #fff;
     display: flex;
     height: 80px;
 }
-nav > ul > li {
+nav > ul > li 
+{
     list-style-type: none;
     margin-left: 30px;
     margin-right: 30px;
 }
-li > a {
+li > a 
+{
     color: #616161;
     display: flex;
 }
-nav > ul {
+nav > ul 
+{
     padding-top: 28px;
     padding-bottom: 23px;
     margin-right: auto;
@@ -115,29 +136,35 @@ nav > ul {
     display: flex;
 }
 /*slider*/
-.darkness {
+.darkness 
+{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 14.37%, rgba(0, 0, 0, 0.8) 100%);
     z-index: 500;
 }
 /*Operator*/
-.operator {
+.operator 
+{
     background: #F8F8F8;
     display: flex;
     justify-content: center;
     padding-top: 20px;
     height: 220px;
 }
-.operator > * {
+.operator > * 
+{
     display: flex;
     flex-direction: column;
 }
-.operator > * > * {
+.operator > * > * 
+{
     display: flex;
 }
-.operator > * > p {
+.operator > * > p 
+{
     color: #777777;
 }
-.operator > * > .buttons > :first-of-type{
+.operator > * > .buttons > :first-of-type
+{
     background-color: #BDBDBD;
     width: 270px;
     font-size: 16px;
@@ -147,7 +174,8 @@ nav > ul {
     padding-bottom: 13px;
     text-align: center;
 }
-.operator > * > .buttons > :last-of-type{
+.operator > * > .buttons > :last-of-type
+{
     border: #969696 1px solid;
     border-radius: 2px;
     width: 220px;
@@ -155,7 +183,8 @@ nav > ul {
     padding-bottom: 13px;
     text-align: center;
 }
-.circle {
+.circle 
+{
     width: 30px;
     height: 30px;
     border: dashed #969696 1.2px;
@@ -164,31 +193,162 @@ nav > ul {
     justify-content: center;
     margin-right: 20px;
 }
-.circle > i {
+.circle > i 
+{
     position: relative;
     top: -.1em;
 }
 /*hotel slider*/
-.hotel {
+.hotel 
+{
     width: 460px;
     height: 450px;
     padding-top: 20px;
 }
-.hotel > .loc {
+.hotel > .loc 
+{
     color: #fff;
     font-weight: 300;
     width: 195px;
     height: 30px;
     background-color: rgba(0, 0, 0, 0.3);
 }
-.hotel > h5 {
+.hotel > h5 
+{
     text-align: center;
     vertical-align: middle;
 }
-.hotel > .rating > i {
+.hotel > .rating > i 
+{
     color: #FFD600;
     opacity: 1;
 }
-.hotel > .rating {
+.hotel > .rating 
+{
     padding-top: 130px;
+}
+.carousel-item 
+{
+    background: #f8f8f8;
+}
+.carousel-item > .d-flex
+{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.tour-img
+{
+    width: 300px;
+    height: 200px;
+}
+.tour
+{
+    margin-top: 23px;
+}
+.tour > p 
+{
+    font-weight: 400;
+    color: #C9C9C9;
+}
+.tour > h1 
+{
+    font-weight: 500;
+    font-size: 20px;
+}
+.tour > .w-25
+{
+    margin-right: 25px;
+    font-size: 12px;
+    color: #3E3E3E;
+}
+.tour > .w-75
+{
+    margin-left: 20px;
+    color: #C9C9C9;
+    font-weight: 400;
+    font-size: 12px;
+}
+.tour > .w-75 > .price
+{
+    font-size: 16px;
+    color: #DD4053;
+}
+.tour > .w-75 > .price > span
+{
+    font-size: 24px;
+}
+.tour-block
+{
+    margin-right: 30px;
+    width: 325px;
+}
+.tours
+{
+    height: 500px;
+}
+.find > ul 
+{
+    display: flex;
+}
+.find > ul:first-of-type > li
+{
+    margin-right: 10px;
+}
+.find > ul > li
+{
+    width: 200px;
+    list-style-type: none;
+}
+.find > ul > li > input
+{
+    width: 100px;
+}
+.find > ul > li:nth-child(2) > input
+{
+    width: 150px;
+}
+.find > ul > li:nth-child(3) > input
+{
+    width: 150px;
+}
+.find > ul > li:nth-child(4) > input
+{
+    width: 150px;
+}
+.find > ul > a 
+{
+    background: #DD4053;
+    color: #fff;
+    width: 130px;
+    text-align: center;
+    border: #DD4053 solid 5px;
+    border-radius: 3px;
+    line-height: 40px;
+    height: 50px;
+}
+.news-block > div
+{
+    width: 1040px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.news > div:first-of-type
+{
+    width: 240px;
+    height: 170px;
+}
+.news-date
+{
+    color: #BBBBBB;
+    font-weight: normal;
+}
+.news-detail 
+{
+    font-weight: normal;
+    text-decoration: underline;
+    color: #000;
+}
+.news-detail:hover 
+{
+    color: #DD4053;
 }

@@ -181,42 +181,251 @@
 
         </div>
 
-    </div>
-    <div class="hotels">
-        <div id="hotelcarousel" class="carousel slide" data-bs-ride="carousel">
-            <!-- Carousel indicators -->
-            <ol class="carousel-indicators">
-                <li data-bs-target="#hotelcarousel" data-bs-slide-to="0" class="active"></li>
-                <li data-bs-target="#hotelcarousel" data-bs-slide-to="1"></li>
-                <li data-bs-target="#hotelcarousel" data-bs-slide-to="2"></li>
-            </ol>
+        <div class="hotels">
+            <h2>Лучшие отели</h2>
+            <div id="hotelcarousel" class="carousel slide" data-bs-interval="false">
+                <!-- Carousel indicators -->
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#hotelcarousel" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#hotelcarousel" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#hotelcarousel" data-bs-slide-to="2"></li>
+                </ol>
 
-            <!-- Wrapper for carousel items -->
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="hotel w-30" style="background: url(./imgs/hotel1.png) no-repeat;">
-                        <div class="loc">Портонови, Черногория</div>
-                        <div class="rating rate-4"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
-                        <h5>One&Only Portonovi</h5>
+                <!-- Wrapper for carousel items -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="hotel w-30" style="background: url(./imgs/hotel1.png) no-repeat;">
+                            <div class="loc">Портонови, Черногория</div>
+                            <div class="rating rate-4"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                            <h5>One&Only Portonovi</h5>
+                        </div>
+
                     </div>
+                    <div class="carousel-item">
+                        <img src="./imgs/hotel2.png" class="d-block w-30" alt="Slide 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imgs/hotel3.png" class="d-block w-30" alt="Slide 3">
+                    </div>
+                </div>
 
-                </div>
-                <div class="carousel-item">
-                    <img src="./imgs/hotel2.png" class="d-block w-30" alt="Slide 2">
-                </div>
-                <div class="carousel-item">
-                    <img src="./imgs/hotel3.png" class="d-block w-30" alt="Slide 3">
+                <!-- Carousel controls -->
+                <a class="carousel-control-prev" href="#hotelcarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#hotelcarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+        <div class="tours flex-column">
+            <h2>Актуальные туры</h2>
+            <div id="tourcarousel" class="carousel slide" data-bs-interval="false">
+                <!-- Wrapper for carousel items -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex">
+                            <div class="tour-block">
+                                <div class="tour-img w-100" style="background: url(./imgs/tour1.png) no-repeat;">
+                                    <div class="loc">Портонови, Черногория</div>
+                                </div>
+                                <div class="tour">
+                                    <h5>One&Only Portonovi</h5>
+                                    <p>Первый ультрароскошный курорт One&Only в Европе</p>
+                                    <hr class="my-1">
+                                </div>
+
+                                <div class="d-flex tour">
+                                    <div class="w-75">
+
+                                        <div class="price">от <span>938 €
+                                            </span></div>
+                                        <p>За номер в сутки в сезон</p>
+                                    </div>
+                                    <div class="w-25">
+                                        <p>от <span class="nights">3</span> ночей <br>
+                                            с <span class="date"> 01 мая 2021</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tour-block">
+                                <div class="tour-img w-100" style="background: url(./imgs/tour2.png) no-repeat;">
+                                    <div class="loc">Ровінь, п-в Істра</div>
+                                </div>
+                                <div class="tour">
+                                    <h5>Зимовка в Regent Porto Montenegro</h5>
+                                    <p>Це втілення високого стилю, в якому поєднується зручність...</p>
+                                    <hr class="my-1">
+                                </div>
+
+                                <div class="d-flex tour">
+                                    <div class="w-75">
+
+                                        <div class="price">от <span>818€</span></div>
+                                        <p>За номер в сутки в сезон</p>
+                                    </div>
+                                    <div class="w-25">
+                                        <p>от <span class="nights">3</span> ночей <br>
+                                            с <span class="date"> 21 мая 2021</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tour-block">
+                                <div class="tour-img w-100" style="background: url(./imgs/tour3.png) no-repeat;">
+                                    <div class="loc">Бока Котор, Черногория</div>
+                                </div>
+                                <div class="tour">
+                                    <h5>Лечение в Naftalan с авиа Киев-Загреб-Киев</h5>
+                                    <p>Первый бренд, воплотивший оригинальную концепцию пляжных...</p>
+                                    <hr class="my-1">
+                                </div>
+
+                                <div class="d-flex tour">
+                                    <div class="w-75">
+
+                                        <div class="price">от <span>818€</span></div>
+                                        <p>За номер в сутки в сезон</p>
+                                    </div>
+                                    <div class="w-25">
+                                        <p>от <span class="nights">3</span> ночей <br>
+                                            с <span class="date"> 01 мая 2021</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex">
+                            <div class="tour-block">
+                                <div class="tour-img w-100" style="background: url(./imgs/tour1.png) no-repeat;">
+                                    <div class="loc">Портонови, Черногория</div>
+                                </div>
+                                <div class="tour">
+                                    <h5>One&Only Portonovi</h5>
+                                    <p>Первый ультрароскошный курорт One&Only в Европе</p>
+                                    <hr class="my-1">
+                                </div>
+
+                                <div class="d-flex tour">
+                                    <div class="w-75">
+
+                                        <div class="price">от <span>938 €
+                                            </span></div>
+                                        <p>За номер в сутки в сезон</p>
+                                    </div>
+                                    <div class="w-25">
+                                        <p>от <span class="nights">3</span> ночей <br>
+                                            с <span class="date"> 01 мая 2021</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tour-block">
+                                <div class="tour-img w-100" style="background: url(./imgs/tour2.png) no-repeat;">
+                                    <div class="loc">Ровінь, п-в Істра</div>
+                                </div>
+                                <div class="tour">
+                                    <h5>Зимовка в Regent Porto Montenegro</h5>
+                                    <p>Це втілення високого стилю, в якому поєднується зручність...</p>
+                                    <hr class="my-1">
+                                </div>
+
+                                <div class="d-flex tour">
+                                    <div class="w-75">
+
+                                        <div class="price">от <span>818€</span></div>
+                                        <p>За номер в сутки в сезон</p>
+                                    </div>
+                                    <div class="w-25">
+                                        <p>от <span class="nights">3</span> ночей <br>
+                                            с <span class="date"> 21 мая 2021</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tour-block">
+                                <div class="tour-img w-100" style="background: url(./imgs/tour3.png) no-repeat;">
+                                    <div class="loc">Бока Котор, Черногория</div>
+                                </div>
+                                <div class="tour">
+                                    <h5>Лечение в Naftalan с авиа Киев-Загреб-Киев</h5>
+                                    <p>Первый бренд, воплотивший оригинальную концепцию пляжных...</p>
+                                    <hr class="my-1">
+                                </div>
+
+                                <div class="d-flex tour">
+                                    <div class="w-75">
+
+                                        <div class="price">от <span>818€</span></div>
+                                        <p>За номер в сутки в сезон</p>
+                                    </div>
+                                    <div class="w-25">
+                                        <p>от <span class="nights">3</span> ночей <br>
+                                            с <span class="date"> 01 мая 2021</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carousel controls -->
+                    <a class="carousel-control-prev" href="#tourcarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#tourcarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
                 </div>
             </div>
+        </div>
+        <div class="find">
+            <ul>
+                <li>Откуда</li>
+                <li>Куда(страна)</li>
+                <li>Дата заезда</li>
+                <li>Туристы</li>
+                <li>Ночей</li>
+            </ul>
+            <ul>
+                <li><input type="text" value="Киев"><img src="./imgs/small-arrow.png"></li>
+                <li><input type="text" placeholder="Выберите страну"><img src="./imgs/small-arrow.png"></li>
+                <li>От<input type="date" placeholder="От"><img src="./imgs/small-arrow.png"><br>До<input type="date" placeholder="До"><img src="./imgs/small-arrow.png"></li>
+                <li><input type="text" placeholder="2 взрослых"></li>
+                <li>От<input type="number" placeholder="0"><img src="./imgs/small-arrow.png"><br>До<input type="number" placeholder="0"><img src="./imgs/small-arrow.png"></li>
+                <a href="" class="d-block">Найти</a>
+            </ul>
 
-            <!-- Carousel controls -->
-            <a class="carousel-control-prev" href="#hotelcarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#hotelcarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </a>
+        </div>
+        <div class="news-block">
+            <h2>Важные новости</h2>
+            <div class="d-flex">
+                <div class="news">
+                    <div class="news-img" style="background: url(./imgs/news1.png) no-repeat; "></div>
+                    <div class="news-date">18 марта, 2021</div>
+                    <h5>Зимовка в Regent <br>
+                        Porto Montenegro</h5>
+                    <a href="" class="news-detail">Подробнее</a>
+                </div>
+                <div class="news">
+                    <div class="news-img" style="background: url(./imgs/news2.png) no-repeat; "></div>
+                    <div class="news-date">18 марта, 2021</div>
+                    <h5>Зимовка в Regent <br>
+                        Porto Montenegro</h5>
+                    <a href="" class="news-detail">Подробнее</a>
+                </div>
+                <div class="news">
+                    <div class="news-img" style="background: url(./imgs/news3.png) no-repeat; "></div>
+                    <div class="news-date">18 марта, 2021</div>
+                    <h5>Зимовка в Regent <br>
+                        Porto Montenegro</h5>
+                    <a href="" class="news-detail">Подробнее</a>
+                </div>
+                <div class="news">
+                    <div class="news-img" style="background: url(./imgs/news4.png) no-repeat; "></div>
+                    <div class="news-date">18 марта, 2021</div>
+                    <h5>Зимовка в Regent <br>
+                        Porto Montenegro</h5>
+                    <a href="" class="news-detail">Подробнее</a>
+                </div>
+            </div>
         </div>
     </div>
 </body>
