@@ -22,8 +22,8 @@
             <div class="logo"><img src="./imgs/logo.png" alt=""></div>
             <div class="vr"></div>
             <div class="language">
-                <div class="item">UA</div>
-                <div class="item">RU</div>
+                <a href="" class="item">UA</a>
+                <a href="" class="item selected">RU</a>
             </div>
             <div class="vr"></div>
             <div class="course">
@@ -55,7 +55,7 @@
                 <div class="btn-header"><i class="bi bi-calendar-check"></i></div>
             </div>
             <div class="vr"></div>
-            <div class="tours">
+            <div class="tour-find">
                 <div class="container">ТУРЫ ONLINE</div>
                 <div class="btn-header"><i class="bi bi-search"></i></div>
             </div>
@@ -136,13 +136,25 @@
                 <!-- Wrapper for carousel items -->
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./imgs/slide1.png" class="d-block w-100" alt="Slide 1">
+                        <div class="slide-img" style="background: url(./imgs/slide1.png);">
+                            <div class="slide-price">От 300 € за сутки</div>
+                            <h2>Новый эко-отель mastila <br> на о. хвар в Хорватии</h2>
+                            <a href="" class="slide-detail">Подробнее</a>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="./imgs/slide2.png" class="d-block w-100" alt="Slide 2">
+                        <div class="slide-img" style="background: url(./imgs/slide2.png);">
+                            <div class="slide-price">От 300 € за сутки</div>
+                            <h2>Новый эко-отель mastila <br> на о. хвар в Хорватии</h2>
+                            <a href="" class="slide-detail">Подробнее</a>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="./imgs/slide3.png" class="d-block w-100" alt="Slide 3">
+                        <div class="slide-img" style="background: url(./imgs/slide3.png);">
+                            <div class="slide-price">От 300 € за сутки</div>
+                            <h2>Новый эко-отель mastila <br> на о. хвар в Хорватии</h2>
+                            <a href="" class="slide-detail">Подробнее</a>
+                        </div>
                     </div>
                 </div>
 
@@ -196,17 +208,73 @@
                     <div class="carousel-item active">
                         <div class="hotel w-30" style="background: url(./imgs/hotel1.png) no-repeat;">
                             <div class="loc">Портонови, Черногория</div>
+                            <div class="rating rate-4">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h5>One&Only Portonovi</h5>
+                        </div>
+                        <div class="hotel w-30" style="background: url(./imgs/hotel2.png) no-repeat;">
+                            <div class="loc">Ровінь, п-в Істра</div>
+                            <div class="rating rate-5">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h5>Зимовка в Regent Porto Montenegro</h5>
+                        </div>
+                        <div class="hotel w-30" style="background: url(./imgs/hotel3.png) no-repeat;">
+                            <div class="loc">Бока Котор, Черногория</div>
+                            <div class="rating rate-4"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                            <h5>Лечение в Naftalan с авиа Киев-Загреб-Киев</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="hotel w-30" style="background: url(./imgs/hotel1.png) no-repeat;">
+                            <div class="loc">Портонови, Черногория</div>
                             <div class="rating rate-4"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                                     class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
                             <h5>One&Only Portonovi</h5>
                         </div>
-
+                        <div class="hotel w-30" style="background: url(./imgs/hotel2.png) no-repeat;">
+                            <div class="loc">Ровінь, п-в Істра</div>
+                            <div class="rating rate-5"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                            <h5>Зимовка в Regent Porto Montenegro</h5>
+                        </div>
+                        <div class="hotel w-30" style="background: url(./imgs/hotel3.png) no-repeat;">
+                            <div class="loc">Бока Котор, Черногория</div>
+                            <div class="rating rate-4"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                            <h5>Лечение в Naftalan с авиа Киев-Загреб-Киев</h5>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="./imgs/hotel2.png" class="d-block w-30" alt="Slide 2">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./imgs/hotel3.png" class="d-block w-30" alt="Slide 3">
+                        <div class="hotel w-30" style="background: url(./imgs/hotel1.png) no-repeat;">
+                            <div class="loc">Портонови, Черногория</div>
+                            <div class="rating rate-4"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                            <h5>One&Only Portonovi</h5>
+                        </div>
+                        <div class="hotel w-30" style="background: url(./imgs/hotel2.png) no-repeat;">
+                            <div class="loc">Ровінь, п-в Істра</div>
+                            <div class="rating rate-5"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                            <h5>Зимовка в Regent Porto Montenegro</h5>
+                        </div>
+                        <div class="hotel w-30" style="background: url(./imgs/hotel3.png) no-repeat;">
+                            <div class="loc">Бока Котор, Черногория</div>
+                            <div class="rating rate-4"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                            <h5>Лечение в Naftalan с авиа Киев-Загреб-Киев</h5>
+                        </div>
                     </div>
                 </div>
 
@@ -424,6 +492,39 @@
                     <h5>Зимовка в Regent <br>
                         Porto Montenegro</h5>
                     <a href="" class="news-detail">Подробнее</a>
+                </div>
+            </div>
+        </div>
+        <div class="blog-block">
+            <h2>Блог</h2>
+            <div class="blogs">
+                <div class="blog">
+                    <div class="blog-img" style="background: url(./imgs/blog1.png) no-repeat; "></div>
+                    <div class="blog-date">18 марта, 2021</div>
+                    <h5>Зимовка в Regent <br>
+                        Porto Montenegro</h5>
+                    <a href="" class="blog-detail">Подробнее</a>
+                </div>
+                <div class="blog">
+                    <div class="blog-img" style="background: url(./imgs/blog2.png) no-repeat; "></div>
+                    <div class="blog-date">18 марта, 2021</div>
+                    <h5>Зимовка в Regent <br>
+                        Porto Montenegro</h5>
+                    <a href="" class="blog-detail">Подробнее</a>
+                </div>
+                <div class="blog">
+                    <div class="blog-img" style="background: url(./imgs/blog3.png) no-repeat; "></div>
+                    <div class="blog-date">18 марта, 2021</div>
+                    <h5>Зимовка в Regent <br>
+                        Porto Montenegro</h5>
+                    <a href="" class="blog-detail">Подробнее</a>
+                </div>
+                <div class="blog">
+                    <div class="blog-img" style="background: url(./imgs/blog4.png) no-repeat; "></div>
+                    <div class="blog-date">18 марта, 2021</div>
+                    <h5>Зимовка в Regent <br>
+                        Porto Montenegro</h5>
+                    <a href="" class="blog-detail">Подробнее</a>
                 </div>
             </div>
         </div>
