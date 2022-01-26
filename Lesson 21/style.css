@@ -1,0 +1,38 @@
+body {
+    display: flex;
+}
+.class, .style-color {
+    padding: 300px 200px;
+    height: 300px;
+    border: grey solid 2px;
+    margin-right: 20px;
+}
+.title, .title2 {
+    font-size: 32px;
+}
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+.green {
+    color: green;
+}
+.yellow {
+    color: yellow;
+}
+.purple{
+    color: purple;
+}
+button {
+    width: 150px;
+    height: 35px;
+    border-radius: 2px;
+    border: black 1px solid;
+    background-color: lightgrey;
+    font-size: 14px;
+}
+button:hover {
+    border-color: gray;
+}
