@@ -1,14 +1,14 @@
 const addToCounter = document.querySelector('.Add-to-counter');
 const subFromCounter = document.querySelector('.Subtract-from-counter');
-const Counter = document.querySelector('.Counter');
-let Count = 0;
+const counter = document.querySelector('.Counter');
+let count = 0;
 addToCounter.addEventListener('click', () => {
-    Count++;
+    count++;
     console.log('+')
-    Counter.textContent = Count;
+    counter.textContent = count;
 });
 subFromCounter.addEventListener('click', () => {
-    Count--;
+    count--;
     console.log('-')
-    Counter.textContent = Count;
+    counter.textContent = count;
 });
